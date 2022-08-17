@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Databinding">
         <activity
+            android:name=".view.LiveDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".view.LiveDataActivity"
+            android:name=".view.LiveDataBindingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
